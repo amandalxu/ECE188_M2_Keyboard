@@ -1,0 +1,37 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.keyboard6 {
+  width: 3cm;
+  height: 2cm; /* Adjust height to match desired size */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.keyboard4 {
+  width: 3cm;
+  height: 2cm; /* Adjust height to match desired size */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.singleRow {
+  width: 3cm;
+  height: 1cm; /* Adjust height to match desired size */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+
+.sub-square {
+  border: 1px solid black;
+  font-size: 4px; /* Adjust font size as needed */
+  white-space: pre-line; /* Preserve white space and line breaks */
+}
