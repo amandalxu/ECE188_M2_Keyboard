@@ -4,6 +4,8 @@
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  transform: scale(0.67); /* Scale down the image */
+  
 }
 
 .keyboard6 {
@@ -12,6 +14,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+
 }
 
 .keyboard4 {
@@ -32,6 +35,11 @@
 
 .sub-square {
   border: 1px solid black;
-  font-size: 4px; /* Adjust font size as needed */
+  font-size: 6.8px; /* Adjust font size as needed */
   white-space: pre-line; /* Preserve white space and line breaks */
+}
+
+.statement-container {
+  display: flex;
+  margin-bottom: 5px;
 }
